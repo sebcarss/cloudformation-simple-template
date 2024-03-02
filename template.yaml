@@ -5,6 +5,6 @@ Description: >
   A basic template to get used to how to write CloudFormation files
 
 Resources:
-  Logical ID:
+  S3Bucket:
     Type: AWS::S3::Bucket
 
