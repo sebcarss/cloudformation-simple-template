@@ -1,0 +1,12 @@
+---
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: >
+  A basic template to get used to how to write CloudFormation files
+
+Resources:
+  Logical ID:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: rsc-cf-temp-bucket-102939
+
