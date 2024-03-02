@@ -7,6 +7,4 @@ Description: >
 Resources:
   Logical ID:
     Type: AWS::S3::Bucket
-    Properties:
-      BucketName: rsc-cf-temp-bucket-102939
 
