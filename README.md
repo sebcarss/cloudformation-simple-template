@@ -1,5 +1,5 @@
 
-# Repo for learnign CloudFormation Templatin
+# Repo for learning CloudFormation Templating
 
 ## AWS Scripts for CloudFormation
 
