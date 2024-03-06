@@ -7,7 +7,7 @@ This CloudFormation template creates a simple S3 bucket with an auto-generated n
 
 ### Deploy the stack
 ```
-aws cloudformation deploy --stack-name aws-cf-s3-create-unique-name --template aws-cf-s3-template.yaml
+aws cloudformation deploy --stack-name aws-cf-s3-create-unique-name --template cloudformation/aws-cf-s3-template.yaml
 ```
 
 ### Test S3 bucket was created
