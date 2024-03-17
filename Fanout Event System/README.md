@@ -12,3 +12,17 @@ In the example we will create a system that stores order history details in an S
 
 ## Terrraform
 
+Building the stack
+```
+terraform fmt
+terraform validate
+terraform apply
+```
+
+Validating the stack was built
+```
+aws s3api list-buckets
+aws sns list-topics
+aws s3api get-bucket-notification-configuration --bucket rsc-order-history-bucket
+aws sns get-topic-attributes --topic-arn arn:aws:sns:eu-west-1:429262707412:rsc-order-history-topic
+```
